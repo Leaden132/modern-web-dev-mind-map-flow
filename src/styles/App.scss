@@ -57,3 +57,31 @@ header {
   stroke-width:5;
   stroke: black;
 }
+
+
+
+
+.react-flow__node {
+
+
+  p {
+
+    &:hover .tooltip {
+      visibility:visible;
+    }
+  }
+
+  .toolTip {
+    visibility: hidden;
+    width: 320px;
+    background-color: black;
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1000;
+  }
+
+}
+
+
