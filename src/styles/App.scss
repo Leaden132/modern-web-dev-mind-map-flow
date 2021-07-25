@@ -36,6 +36,9 @@ header {
   margin: 3px 0;
 }
 
+
+// needed a lot of !importants to override flow library basic styling
+
 .react-flow__node {
   border-radius: 10px  !important;
   border: 5px solid white !important;
