@@ -228,7 +228,7 @@ export const initialArray = [
         </> ) },
         parent: 29,
         position: {x:-2040, y:3000},
-        className: 'tierFive longNode'
+        className: 'tierFive longNode longer'
       },
       {
         id: '31',

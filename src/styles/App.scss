@@ -37,63 +37,67 @@ header {
 }
 
 .react-flow__node {
-  border-radius: 10px;
+  border-radius: 10px  !important;
   border: 5px solid white;
-  font-size:2.9rem;
-  min-width:300px;
+  font-size:2.9rem  !important;
+  min-width:300px  !important;
 }
 
 .midNode {
-  width:400px;
+  width:400px  !important;
 }
 
 .longNode {
-  width:600px;
+  width:600px  !important;
+}
+
+.longer {
+  width:800px  !important;
 }
 
 .react-flow__controls {
-  top:20px;
-  right:20px;
-  bottom:unset;
-  left:unset;
+  top:20px  !important;
+  right:20px  !important;
+  bottom:unset  !important;
+  left:unset  !important;
 }
 
 
 
 .tierOne {
-  border-color: rgb(136, 8, 241);
-  background-color: rgb(203, 153, 245);
-  color: rgb(132, 8, 235);
+  border-color: rgb(136, 8, 241) !important;
+  background-color: rgb(203, 153, 245) !important;
+  color: rgb(132, 8, 235) !important;
 }
 
 .tierTwo {
-  border-color: rgb(5, 202, 199);
-  background-color: rgb(192, 247, 246);
-  color: rgb(0, 121, 119);
+  border-color: rgb(5, 202, 199) !important;
+  background-color: rgb(192, 247, 246) !important;
+  color: rgb(0, 121, 119) !important;
 }
 
 .tierThree {
-  border-color: rgb(241, 6, 202);
-  background-color: rgb(247, 168, 234);
-  color: rgb(201, 5, 168);
+  border-color: rgb(241, 6, 202) !important;
+  background-color: rgb(247, 168, 234) !important;
+  color: rgb(201, 5, 168) !important;
 }
 
 .tierFour {
-  border-color: rgb(2, 106, 218);
-  background-color: rgb(177, 212, 252);
-  color: rgb(3, 105, 214);
+  border-color: rgb(2, 106, 218) !important;
+  background-color: rgb(177, 212, 252) !important;
+  color: rgb(3, 105, 214) !important;
 }
 
 .tierFive {
-  border-color: rgb(29, 233, 63);
-  background-color: rgb(181, 224, 192);
-  color: rgb(0, 114, 15);
+  border-color: rgb(29, 233, 63) !important;
+  background-color: rgb(181, 224, 192) !important;
+  color: rgb(0, 114, 15) !important;
 }
 
 
 .react-flow__edge-path{
-  stroke-width:10;
-  stroke: rgb(29, 233, 63);
+  stroke-width:10 !important;
+  stroke: rgb(29, 233, 63) !important;
 }
 
 
