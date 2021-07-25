@@ -41,16 +41,16 @@ header {
 .screen {
   position:relative;
   background-clip: padding-box; 
-  border: solid 7px transparent; 
-  border-radius: 10px;
+  border: solid 6px transparent; 
+  border-radius: 8px;
   &:before {
     content: '';
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -1;
-    margin: -7px; 
-    border-radius: 10px; 
-    background: linear-gradient(to bottom, rgb(5, 202, 199), rgb(13, 187, 36));
+    margin: -5px; 
+    border-radius: 5px; 
+    background: linear-gradient(to bottom, rgb(58, 10, 170), rgb(180, 39, 39));
   }
 }
 
