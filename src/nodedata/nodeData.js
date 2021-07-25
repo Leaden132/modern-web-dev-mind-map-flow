@@ -6,7 +6,7 @@ export default [
         type: 'input',
         data: { label : ( <> <p>Web Development</p> </> ) },
         position: {x:1700, y:-435},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '2',
@@ -18,50 +18,50 @@ export default [
         id: '3',
         data: { label : ( <> <p>Fundamental Languages</p> </> ) },
         position: {x:1900, y:-50},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '4',
         data: { label : ( <> <p>specialization</p> </> ) },
         position: {x:1465, y:740},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '5',
         data: { label : ( <> <p>Front-End</p> </> ) },
         position: {x:285, y:1400},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '6',
         data: { label : ( <> <p>Back-End</p> </> ) },
         position: {x:1980, y:1015},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '7',
         data: { label : ( <> <p>Auxiliary Expansion</p> </> ) },
         position: {x:5335, y:1460},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '8',
         data: { label : ( <> <p>Fundamental Knowledge</p> </> ) },
         position: {x:1565, y:-50},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '9',
         data: { label : ( <> <p>Hosting / Domain / DNS / HTTP</p> </> ) },
         parent: 8,
         position: {x:1475, y:205},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '10',
         data: { label : ( <> <p>Dev Environment</p> </> ) },
         position: {x:1200, y:-50},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '11',
@@ -73,64 +73,64 @@ export default [
         <p> Design - Adobe XD, Figma</p> </> ) },
         parent: 10,
         position: {x:755, y:205},
-        className: 'tierTwo longNode'
+        className: 'tierFour longNode'
       },
       {
         id: '12',
         data: { label : ( <> <p>HTML</p> </> ) },
         position: {x:2400, y:205},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '13',
         data: { label : ( <> <p>CSS</p> </> ) },
         position: {x:2800, y:205},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '14',
         data: { label : ( <> <p>JavaScript</p> </> ) },
         position: {x:2000, y:205},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '15',
         data: { label : ( <> <p>Semantics</p> <p> Page Structure</p> <p> Grammar</p> </> ) },
         parent: 12,
         position: {x:2400, y:385},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '16',
         data: { label : ( <> <p>Basic styling</p> <p> positions</p> <p> Flexbox</p> </> ) },
         parent: 13,
         position: {x:2800, y:385},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '17',
         data: { label : ( <> <p>Variables</p> <p> data type</p> <p> object</p> <p> array</p> <p> Function</p> <p> Loops</p> <p> DOM</p> </> ) },
         parent: 14,
         position: {x:2000, y:385},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '18',
         data: { label : ( <> <p>HTML</p> </> ) },
         position: {x:650, y:1575},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '19',
         data: { label : ( <> <p>JavaScript</p> </> ) },
         position: {x:-210, y:1635},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '20',
         data: { label : ( <> <p>CSS</p> </> ) },
         position: {x:315, y:1740},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '21',
@@ -172,7 +172,7 @@ export default [
         </> ) },
         parent: 19,
         position: {x:-225, y:2300},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '25',
@@ -180,7 +180,7 @@ export default [
         </> ) },
         parent: 24,
         position: {x:180, y:2580},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '26',
@@ -188,7 +188,7 @@ export default [
         </> ) },
         parent: 24,
         position: {x:-984, y:2710},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '27',
@@ -196,7 +196,7 @@ export default [
         </> ) },
         parent: 24,
         position: {x:-460, y:2710},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '28',
@@ -204,7 +204,7 @@ export default [
         </> ) },
         parent: 24,
         position: {x:66, y:2710},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '29',
@@ -212,7 +212,7 @@ export default [
         </> ) },
         parent: 24,
         position: {x:-1500, y:2710},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '30',
@@ -226,7 +226,7 @@ export default [
         </> ) },
         parent: 29,
         position: {x:-2040, y:3000},
-        className: 'tierTwo longNode'
+        className: 'tierFive longNode'
       },
       {
         id: '31',
@@ -234,7 +234,7 @@ export default [
         </> ) },
         parent: 26,
         position: {x:-803, y:3000},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '32',
@@ -242,7 +242,7 @@ export default [
         </> ) },
         parent: 26,
         position: {x:-1180, y:3000},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '33',
@@ -250,7 +250,7 @@ export default [
         </> ) },
         parent: 27,
         position: {x:-460, y:3000},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '34',
@@ -258,7 +258,7 @@ export default [
         </> ) },
         parent: 28,
         position: {x:-20, y:3000},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '35',
@@ -266,7 +266,7 @@ export default [
         </> ) },
         parent: 28,
         position: {x:320, y:3005},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '36',
@@ -275,7 +275,7 @@ export default [
         </> ) },
         parent: 'none',
         position: {x:-450, y:3200},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '37',
@@ -308,7 +308,7 @@ export default [
         </> ) },
         parent: 'none',
         position: {x:360, y:3190},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '41',
@@ -355,7 +355,7 @@ export default [
         </> ) },
         parent: 43,
         position: {x:910, y:2345},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '45',
@@ -364,7 +364,7 @@ export default [
         </> ) },
         parent: 43,
         position: {x:520, y:2400},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '46',
@@ -373,7 +373,7 @@ export default [
         </> ) },
         parent: 45,
         position: {x:1080, y:2777},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '47',
@@ -382,7 +382,7 @@ export default [
         </> ) },
         parent: 45,
         position: {x:752, y:2777},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '48',
@@ -391,7 +391,7 @@ export default [
         </> ) },
         parent: 45,
         position: {x:422, y:2777},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '49',
@@ -400,7 +400,7 @@ export default [
         </> ) },
         parent: 6,
         position: {x:2740, y:1220},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '50',
@@ -433,7 +433,7 @@ export default [
         </> ) },
         parent: 51,
         position: {x:2577, y:2167},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '53',
@@ -442,7 +442,7 @@ export default [
         </> ) },
         parent: 52,
         position: {x:2413, y:2485},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '54',
@@ -451,7 +451,7 @@ export default [
         </> ) },
         parent: 53,
         position: {x:2280, y:2720},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '55',
@@ -460,7 +460,7 @@ export default [
         </> ) },
         parent: 51,
         position: {x:3730, y:2175},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '56',
@@ -470,7 +470,7 @@ export default [
         </> ) },
         parent: 55,
         position: {x:3730, y:2475},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '57',
@@ -479,7 +479,7 @@ export default [
         </> ) },
         parent: 51,
         position: {x:2820, y:2405},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '58',
@@ -491,7 +491,7 @@ export default [
         </> ) },
         parent: 57,
         position: {x:2660, y:2725},
-        className: 'tierTwo longNode'
+        className: 'tierFive longNode'
       },
       {
         id: '59',
@@ -505,7 +505,7 @@ export default [
         </> ) },
         parent: 51,
         position: {x:3285, y:2125},
-        className: 'tierTwo'
+        className: 'tierFour'
       },
       {
         id: '60',
@@ -514,7 +514,7 @@ export default [
         </> ) },
         parent: 59,
         position: {x:3335, y:2645},
-        className: 'tierTwo'
+        className: 'tierFive'
       },
       {
         id: '61',
@@ -528,7 +528,7 @@ export default [
         </> ) },
         parent: 60,
         position: {x:3335, y:2950},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '62',
@@ -537,7 +537,7 @@ export default [
         </> ) },
         parent: 6,
         position: {x:1825, y:1235},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '63',
@@ -559,7 +559,7 @@ export default [
         </> ) },
         parent: 63,
         position: {x:1365, y:1765},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '65',
@@ -581,7 +581,7 @@ export default [
         </> ) },
         parent: 65,
         position: {x:2530, y:1685},
-        className: 'tierTwo'
+        className: 'tierThree'
       },
       {
         id: '67',
@@ -604,7 +604,7 @@ export default [
         </> ) },
         parent: 67,
         position: {x:1740, y:1750},
-        className: 'tierTwo longNode'
+        className: 'tierThree longNode'
       },
       {
         id: '69',
@@ -613,7 +613,7 @@ export default [
         </> ) },
         parent: 7,
         position: {x:7805, y:1880},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '70',
@@ -649,7 +649,7 @@ export default [
         </> ) },
         parent: 7,
         position: {x:4590, y:1965},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '74',
@@ -671,7 +671,7 @@ export default [
         </> ) },
         parent: 7,
         position: {x:5110, y:1965},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '76',
@@ -692,7 +692,7 @@ export default [
         </> ) },
         parent: 7,
         position: {x:6560, y:1890},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '78',
@@ -755,7 +755,7 @@ export default [
         </> ) },
         parent: 7,
         position: {x:8780, y:1875},
-        className: 'tierTwo'
+        className: 'tierOne'
       },
       {
         id: '85',

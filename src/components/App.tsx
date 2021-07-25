@@ -24,7 +24,7 @@ const App = () => {
   return (
     <>
     <Header/>
-    <div className='screen' style={{ height: 'calc(100vh - 30px)', width:'95vw', margin: '0 auto' }}>
+    <div className='screen' style={{ height: 'calc(100vh - 30px)', width:'95vw', margin: '0 auto', backgroundColor: 'black'}}>
     {/* <ReactFlow elements={elements} /> */}
     <ReactFlow elements={nodeData} minZoom={0.15} nodesDraggable={false} elementsSelectable={false} onLoad={onLoad}>
       <Controls />
