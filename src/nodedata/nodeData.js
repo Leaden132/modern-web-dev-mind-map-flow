@@ -1,6 +1,8 @@
 import React from 'react';
 
-export default [
+
+
+export const initialArray = [
     {
         id: '1',
         type: 'input',
@@ -1288,12 +1290,6 @@ export default [
         id: 'e84-87',
         source: '84',
         target: '87',
-        type:'straight'
-    },
-    {
-        id: 'e84-88',
-        source: '84',
-        target: '88',
         type:'straight'
     }
 ]
