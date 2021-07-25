@@ -15,13 +15,25 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 }
 
 html{
-  background-color:grey;
+  background-color:#fafafa;
 }
 
 header {
-  
-  height:30px;
-  color:white;
+  text-align:center;
+  // height:30px;
+  color:black;
+  font-size:1.6rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  p{
+    padding: 7px;
+    border: 3px solid rgb(2, 106, 218);
+    background-color: rgb(177, 212, 252);
+    color: rgb(3, 105, 214);
+  }
+  margin: 3px 0;
 }
 
 .react-flow__node {
@@ -46,39 +58,41 @@ header {
   left:unset;
 }
 
-.tierThree {
-  color: rgb(201, 5, 168);
-  border-color: rgb(241, 6, 202);
-  background-color: rgb(247, 168, 234);
-}
+
 
 .tierOne {
-  color: rgb(132, 8, 235);
   border-color: rgb(136, 8, 241);
   background-color: rgb(203, 153, 245);
-}
-
-.tierFour {
-  color: rgb(3, 105, 214);
-  border-color: rgb(2, 106, 218);
-  background-color: rgb(177, 212, 252);
+  color: rgb(132, 8, 235);
 }
 
 .tierTwo {
-  color: rgb(0, 121, 119);
   border-color: rgb(5, 202, 199);
   background-color: rgb(192, 247, 246);
+  color: rgb(0, 121, 119);
+}
+
+.tierThree {
+  border-color: rgb(241, 6, 202);
+  background-color: rgb(247, 168, 234);
+  color: rgb(201, 5, 168);
+}
+
+.tierFour {
+  border-color: rgb(2, 106, 218);
+  background-color: rgb(177, 212, 252);
+  color: rgb(3, 105, 214);
 }
 
 .tierFive {
-  color: rgb(0, 114, 15);
   border-color: rgb(29, 233, 63);
   background-color: rgb(181, 224, 192);
+  color: rgb(0, 114, 15);
 }
 
 
 .react-flow__edge-path{
-  stroke-width:5;
+  stroke-width:10;
   stroke: white;
 }
 
