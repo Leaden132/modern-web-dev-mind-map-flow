@@ -37,6 +37,24 @@ header {
 }
 
 
+.screen {
+  position:relative;
+  background-clip: padding-box; 
+  border: solid 7px transparent; 
+  border-radius: 10px;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -7px; 
+    border-radius: 10px; 
+    background: linear-gradient(to right, rgb(5, 202, 199), rgb(3, 105, 214));
+  }
+}
+
+
+
 // needed a lot of !importants to override flow library basic styling
 
 .react-flow__node {

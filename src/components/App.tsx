@@ -17,11 +17,10 @@ const App = () => {
     reactFlowInstance.fitView();
   };
 
-
   return (
     <>
     <Header/>
-    <div className='screen' style={{ height: 'calc(100vh - 60px)', width:'calc(100vw - 60px)', margin: '0 auto', backgroundColor: 'black', border: '5px solid rgb(136, 8, 241)'}}>
+    <div className='screen' style={{ height: 'calc(100vh - 60px)', width:'calc(100vw - 60px)', margin: '0 auto', backgroundColor: 'black', }}>
     {/* <ReactFlow elements={elements} /> */}
     <ReactFlow elements={initialArray} minZoom={0.15} nodesDraggable={false} elementsSelectable={false} onLoad={onLoad}>
       <Controls />
