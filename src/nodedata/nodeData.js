@@ -462,7 +462,7 @@ export const initialArray = [
         </> ) },
         parent: 51,
         position: {x:3730, y:2175},
-        className: 'tierFour'
+        className: 'tierFour midNode'
       },
       {
         id: '56',
