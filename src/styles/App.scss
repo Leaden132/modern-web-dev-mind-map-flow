@@ -54,17 +54,22 @@ header {
   }
 }
 
-
+.nodeLabelFocus:focus {
+  background-color:red !important;
+}
 
 // needed a lot of !importants to override flow library basic styling
 
 .react-flow__node {
   border-radius: 10px  !important;
-  border: 5px solid white !important;
+  border: 8px solid white !important;
   font-size:2.9rem  !important;
   min-width:300px  !important;
   padding-top:20px;
   padding-bottom:20px;
+  &:hover {
+    background-color:blue !important;
+  }
 }
 
 .midNode {
